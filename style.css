@@ -1,0 +1,124 @@
+#logo {
+    padding: 0.9375rem;
+}
+.jumbotron {
+    padding top: 3brem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url('img/icebreaker_hero_5.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding top: 6brem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p: last-child {
+    margin-bottom: 0;
+    
+  }
+  
+  .jumbotron p  {
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  }
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+    color: white;
+  }
+  
+  .btn-primary {
+    min-width: 11.875rem;
+    font-size: 0.875rem;
+    background: #fff;
+    padding: 0.75rem 1.75rem;
+    text-align: center;
+    color: #231f20;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 3.5rem;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #f60;
+    border-color: #f60; /*set the color you want here*/
+}
+
+.content {
+margin-top: 4.25rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#sign-up {
+margin-top: 2rem;
+}
+
+h5.free-shipping {
+    color: #f60;
+    padding-bottom: 2rem;
+}
+
+.btn-secondary {
+    min-width: 11.875rem;
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    background: #231f20;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+    color: #fff;
+    background-color: #f60;
+    border-color: #f60; /*set the color you want here*/
+}
+#button-addon2 {
+    margin-left: 0.9375rem;
+
+}
+
+
+    @media (min-width: 768px){
+        .col-border:before{
+            content:"";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            border-left: 1px solid black;
+        }
+        .col-border-padding {
+            padding-left: 1.5rem;
+
+        }
+    }
+
+    
+
+    @media (max-width: 420px){
+        #button-addon2 {
+            min-width: 5.875rem;
+        }
+        .col-border-padding {
+            margin-top: 3rem;
+        }
+    }
